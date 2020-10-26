@@ -1,4 +1,5 @@
 <?php
+    // Script input data in between header and footer (run script). Script need name of other script to run it (value $filler)
     $products = [
         1 => [
             'article' => 'dell-ins',
@@ -19,6 +20,6 @@
             'img' => 'dell-inspirion.jpeg'
         ]
     ];
-    require_once PAGES . 'shop.php';
+    require_once PAGES . $filler;
 
 ?>

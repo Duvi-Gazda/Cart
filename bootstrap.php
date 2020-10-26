@@ -1,4 +1,5 @@
 <?php 
+    require_once FUNCTIONS;
     ini_set('display_errors','On');
     ini_set('display_startup_errors','On');
     error_reporting(E_ALL);
@@ -7,8 +8,6 @@
     
     if(!isset($_SESSION['cart'])){
         $_SESSION['cart']=[
-            'products' => [
-
-            ],
+            'products' => [],
         ];
     }

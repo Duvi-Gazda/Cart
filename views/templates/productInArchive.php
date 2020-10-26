@@ -1,7 +1,13 @@
-<img src="<?= $product['image']?>" alt="<?= $product['name']?>">
-<?php
+<div id="<?php echo $product['id']?>">
+    <?php 
     echo $product['name'];
-    echo $product['price'];
-?>
+    ?>
 <br>
-<a href="<?= $product['link']?>">Add to cart</a>
+<?php
+    echo $product['price'];
+    ?>
+</div>
+<br>
+<!-- add to cart -->
+<!-- <a href="<?php //"index.php?action=add-product&prid={$product['id']}"?>">Add to cart</a> -->
+<br>

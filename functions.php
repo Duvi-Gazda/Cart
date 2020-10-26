@@ -12,9 +12,12 @@
     // function return ready arr from json (after crypt)
     function getFromJSON($filePath){
         // get data from json
-        $data = json_decode(file_get_contents($filePath));
+        $data = json_decode(file_get_contents($filePath),true);
         // dectrypt
-        $data = decrypt($data);
+        foreach($data as $subData){
+           // $subData = decrypt($subData);
+
+        }
         return $data;
     }
     // function set data to file (need file path and data)
@@ -29,13 +32,13 @@
     // return products from storage
     function getALLProducts(){
         if(TYPE_STORAGE == 'json'){
-            return getFromJSON(STORAGE);
+            return getFromJSON(PRODUCTS);
         }
     }
     // set all data to storage
     function setAllData($data){
         if(TYPE_STORAGE == 'json'){
-            setToJSON($data, STORAGE);
+            setToJSON($data, PRODUCTS);
         }
     }
     // function takes data, sort it and return only sorted, that is in condition array
