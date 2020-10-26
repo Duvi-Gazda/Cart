@@ -1,4 +1,4 @@
-<div id="<?php echo $product['id']?>">
+<div id="<?php echo $product['id']?>" class="product">
     <?php 
     echo $product['name'];
     ?>

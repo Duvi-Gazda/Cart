@@ -10,6 +10,7 @@
     const ELEMENTS = VIEW . 'elements/';
     const HEADER = ELEMENTS .'header.php';
     const ERROR = ELEMENTS .'error.php';
+    const MESSAGE = ELEMENTS .'message.php';
     const FOOTER = ELEMENTS . 'footer.php';
     // teplates
     const PAGES = VIEW . 'pages/';

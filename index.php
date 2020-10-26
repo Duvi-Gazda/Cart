@@ -13,6 +13,7 @@
     }
     $links =[
         '<script src="/views/frontCode/jquery.js"></script>',
-        '<script src="views/frontCode/compiled/functions.js"></script>'
+        '<script src="views/frontCode/compiled/functions.js"></script>',
+        '<script src="views/frontCode/compiled/shop.js"></script>'
     ];
     require_once FOOTER;

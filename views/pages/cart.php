@@ -1,6 +1,8 @@
 <?php 
     // if there is some products 
     $products = $_SESSION['cart']['products'];
+    //var_dump($products);
+    //exit;
     if(isset($products) && is_array($products)&& count($products)){
         // show them
         foreach($products as $id => $val){

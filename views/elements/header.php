@@ -6,3 +6,7 @@
     <title><?php echo $title?></title>
 </head>
 <body>
+    <div class="header">
+        <a href="index.php">Home</a>
+        <a href="cart.php">cart</a>
+    </div>

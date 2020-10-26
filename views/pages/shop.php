@@ -5,6 +5,7 @@
         // show them
         foreach($products as $product){
             //var_dump($product);
+
             require TEMPLATES . 'productInArchive.php';
         }
     }else{
