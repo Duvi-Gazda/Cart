@@ -8,7 +8,7 @@ function sentDataToServer(vars:string){
     
         if(hr.readyState == 4 && hr.status == 200) {
             var return_data = hr.responseText;
-            document.getElementById("status").innerHTML = return_data;
+          //  document.getElementById("status").innerHTML = return_data;
         }
     }
     hr.onload = (res) =>{

@@ -21,6 +21,9 @@
                 $_SESSION['cart']['products'][$id] = $quantity;
                 //echo $_SESSION['cart']['products'][$id];
                 //echo $id;
+                if($quantity <= 0){
+                   unset($_SESSION['cart']['products'][$id]);
+                }
                 $textMessage = 'Your product quantity is changed!';
                 require MESSAGE;
             break;
