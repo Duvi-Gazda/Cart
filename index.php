@@ -2,6 +2,9 @@
     // inlcude all configs 
     require_once __DIR__ . '/configs/path.config.php';
     $title = 'Shop';
+    $links = [
+        '<link rel="stylesheet" href="/views/css/main.css">'
+    ];
     require_once HEADER;
     require_once BOOTSTRAP;
     require_once ROUTER;

@@ -10,6 +10,8 @@
     const ELEMENTS = VIEW . 'elements/';
     const HEADER = ELEMENTS .'header.php';
     const ERROR = ELEMENTS .'error.php';
+    const FILLER = ELEMENTS .'filler.php';
+    const TOTAL_CART = ELEMENTS .'totalCart.php';
     const MESSAGE = ELEMENTS .'message.php';
     const FOOTER = ELEMENTS . 'footer.php';
     // teplates
@@ -17,7 +19,7 @@
     const TEMPLATES = VIEW . 'templates/';
     const TEMPLATES_PAGE = VIEW . 'templatesPage/';
     const RIGHT_SIDEBAR = TEMPLATES_PAGE . 'right_sidebar.php';
-    const FULL_SREEN = TEMPLATES_PAGE . 'full_screen.php';
+    const FULL_SREEN = TEMPLATES_PAGE . 'full_screen_line.php';
     const CART = PAGES.'cart.php';
 
     const BOOTSTRAP = ROOT.'bootstrap.php';

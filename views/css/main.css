@@ -1,0 +1,157 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #018533;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #018533;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+body .header .menu {
+  padding: 10px;
+  font-size: 20px;
+}
+body .header .menu :link {
+  padding: 20px;
+  color: #f1f1f1;
+}
+body .header .menu :visited {
+  color: #f1f1f1;
+}
+body .container {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  color: #c8e2e2;
+  background-color: #3f3f3f;
+  background-image: url("/views/photo/a36a4101fb9462c6100b70a28a19c532.jpg");
+}
+body .container .product {
+  display: inline-block;
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 200px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: max-content;
+  border-radius: 30px;
+  background-color: rgba(233, 159, 159, 0.474);
+  box-shadow: 0 0 30px 5px #54f266;
+}
+body .container .cart_product {
+  margin-left: 20px;
+}
+body .container .cart_product input[type=number] {
+  width: 30px;
+  width: max-content;
+  padding: 12px 20px;
+  margin: 20px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+body .container .cart_product .delete {
+  display: inline;
+  margin-left: 25px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+body .container .cart_product .closebtn {
+  color: white;
+  font-size: 30px;
+}
+body .container .total {
+  padding: 15px 20px;
+  font-size: 30px;
+}
+body .message {
+  opacity: 1;
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+  animation: show 1s 1;
+}
+body .message .message-header {
+  padding: 30px 25px;
+  background: #555;
+  font-size: 20px;
+  color: white;
+}
+body .message .message-container {
+  width: min-content;
+  height: min-content;
+  padding: 15px;
+  background-color: #ccc;
+  color: black;
+}
+body .message .closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+body .message .closebtn:hover {
+  color: lightgrey;
+}
+body .message .standart {
+  background-color: green;
+}
+body .message .error {
+  background-color: #680000;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+    margin-left: 0px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 20px;
+    display: none;
+    animation: reverse 3s 1;
+  }
+}

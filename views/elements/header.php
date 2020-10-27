@@ -6,7 +6,14 @@
     <title><?php echo $title?></title>
 </head>
 <body>
+<?php 
+        foreach($links as $link){
+            echo $link;
+        }
+    ?>
     <div class="header">
-        <a href="index.php">Home</a>
-        <a href="cart.php">cart</a>
+        <div class="menu">
+            <a href="index.php">Home</a>
+            <a href="cart.php">Cart</a>
+        </div>
     </div>

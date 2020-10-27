@@ -89,3 +89,7 @@
             array_push($productArray,$products);
         }
     }
+    // function get text and link and make html link
+    function makeHtmlLink($text,$link){
+        return "<a href=\"$link\">$text</a>";
+    }

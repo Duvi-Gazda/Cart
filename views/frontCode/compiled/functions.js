@@ -11,8 +11,10 @@ function sentDataToServer(vars) {
         }
     };
     hr.onload = function (res) {
-        // $('body').append(res['target']['response']);
-        alert(res['target']['response']);
+        $('.message').remove();
+        $('body').append(res['target']['response']);
+        //document.location.reload();
+        // alert(res['target']['response']);
     };
     hr.send(vars);
 }
