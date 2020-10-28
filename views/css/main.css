@@ -79,6 +79,7 @@ body .container .product {
   box-shadow: 0 0 30px 5px #54f266;
 }
 body .container .cart_product {
+  margin-top: 50px;
   margin-left: 20px;
 }
 body .container .cart_product input[type=number] {
