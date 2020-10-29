@@ -1,6 +1,7 @@
 <?php
     // inlcude all configs 
     require_once __DIR__ . '/configs/path.config.php';
+    require_once PRODUCTS_CLASS;
     $title = 'Shop';
     $links = [
         '<link rel="stylesheet" href="/views/css/main.css">'
@@ -11,9 +12,6 @@
     // builder show 
     $filler = 'shop.php';
     require_once FULL_SREEN;
-    if (isset($_POST['server'])){
-        file_put_contents($_POST['server'],'/home/david/Sync/it-step/Php_and_Sql/Lessons/PrcticeLesson/Cart/storage/demo.txt');
-    }
     $links =[
         '<script src="/views/frontCode/jquery.js"></script>',
         '<script src="views/frontCode/compiled/functions.js"></script>',

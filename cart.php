@@ -1,6 +1,7 @@
 <?php
     // inlcude all configs 
     require_once __DIR__ . '/configs/path.config.php';
+    require_once PRODUCTS_CLASS;
     $title = 'Shop';
     $links = [
         '<link rel="stylesheet" href="/views/css/main.css">',

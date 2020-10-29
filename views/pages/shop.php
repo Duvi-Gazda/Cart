@@ -1,10 +1,12 @@
 <?php 
-    $products = getALLProducts();
+    $products = new Products(PRODUCTS);
     // if there is some products 
-
-    if(isset($products) && is_array($products)&& count($products)){
+   // var_dump($produsts);
+   if(isset($products) && is_array($products->getProducts())&& count($products->getProducts())){
+        $productCopy = $products->getProducts();
         // show them
-        foreach($products as $product){
+        //var_dump($productCopy);
+        foreach($productCopy as $product){
             require TEMPLATES . 'productInArchive.php';
         }
     }else{

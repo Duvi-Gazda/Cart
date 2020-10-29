@@ -6,7 +6,8 @@
         // show them
         foreach($products as $id => $val){
             // get all products
-            $all_product = getALLProducts();
+            $all_product = new Products(PRODUCTS);
+            $all_product = $all_product->getProducts();
             $sort = [
                 'id' => $id
             ];

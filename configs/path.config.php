@@ -6,6 +6,7 @@
     const ROUTER = ROOT . 'router.php';
     const VIEW = ROOT . 'views/';
     const FUNCTIONS = ROOT . 'functions.php';
+    const PRODUCTS_CLASS = ROOT . '/classes/products.php';
     // elements
     const ELEMENTS = VIEW . 'elements/';
     const HEADER = ELEMENTS .'header.php';
