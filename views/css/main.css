@@ -54,6 +54,25 @@ body .header .menu :link {
 body .header .menu :visited {
   color: #f1f1f1;
 }
+body .cart_footer {
+  margin-top: 30px;
+}
+body .cart_footer .total {
+  display: inline;
+  padding: 15px 20px;
+  font-size: 30px;
+}
+body .cart_footer #cart_buttons {
+  display: inline;
+  margin-left: 50px;
+}
+body .cart_footer #cart_buttons .button {
+  background-color: darkslategray;
+  display: inline;
+  padding: 10px 20px;
+  border: 1px solid black;
+  width: max-content;
+}
 body .container {
   overflow-y: scroll;
   height: 100%;
@@ -61,6 +80,9 @@ body .container {
   color: #c8e2e2;
   background-color: #3f3f3f;
   background-image: url("/views/photo/a36a4101fb9462c6100b70a28a19c532.jpg");
+}
+body .container .padder {
+  margin-top: 100px;
 }
 body .container .product {
   display: inline-block;
@@ -99,10 +121,6 @@ body .container .cart_product .delete {
 }
 body .container .cart_product .closebtn {
   color: white;
-  font-size: 30px;
-}
-body .container .total {
-  padding: 15px 20px;
   font-size: 30px;
 }
 body .message {
@@ -155,4 +173,31 @@ body .message .error {
     display: none;
     animation: reverse 3s 1;
   }
+}
+body .checkout {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+body .checkout .container {
+  background: none;
+  padding-top: 10px;
+}
+body .checkout .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .checkout input[type=text] {
+  padding: 10px 20px;
+}
+body .checkout input[type=submit] {
+  background-color: darkslategray;
+  border: 1px solid black;
+  color: seashell;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+body .checkout .inline_container {
+  display: inline;
 }

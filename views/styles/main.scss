@@ -50,6 +50,25 @@ body{
             }
         }
     }
+    .cart_footer{
+        margin-top: 30px;
+        .total{
+            display: inline;
+            padding: 15px 20px;
+            font-size: 30px;
+        }
+        #cart_buttons{
+            display: inline;
+            margin-left: 50px;
+            .button{
+                background-color: darkslategray;
+                display: inline;
+                padding: 10px 20px;
+                border: 1px solid black;
+                width: max-content;
+            }
+        }
+    }
     .container{
         overflow-y: scroll;
         height: 100%;
@@ -57,6 +76,9 @@ body{
         color: rgb(200, 226, 226);
         background-color: rgba($color: #3f3f3fea, $alpha: 1.0);
         background-image: url('/views/photo/a36a4101fb9462c6100b70a28a19c532.jpg');
+        .padder{
+            margin-top: 100px;
+        }
         .product{
             display: inline-block;
             margin-top: 75px;
@@ -96,10 +118,6 @@ body{
                 color: white;
                 font-size: 30px;
             }
-        }
-        .total{
-            padding: 15px 20px;
-            font-size: 30px;
         }
     }
     .message{
@@ -153,5 +171,32 @@ body{
             }
             animation: show 1s 1;
             // animation-fill-mode: forwards; 
+    }
+    .checkout{
+        .container{
+            background: none;
+            padding-top: 10px;
+        }
+        .title{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+        input[type=text]{
+            padding: 10px 20px;
+        }
+        input[type=submit]{
+            background-color: darkslategray;
+            border: 1px solid black;
+            color: seashell;
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+        .inline_container{
+            display: inline;
+        }
     }
 }

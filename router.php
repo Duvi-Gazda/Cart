@@ -29,6 +29,12 @@
                 require MESSAGE;
             break;
             }
+            case 'clear-cart':{
+                    foreach($_SESSION['cart']['products'] as $name=>$data){
+                        unset($_SESSION['cart']['products'][$name]);
+                    }
+            break;
+            }
         }
     }
     else{

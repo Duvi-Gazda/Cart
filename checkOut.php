@@ -10,11 +10,10 @@
     require_once HEADER;
     require_once ROUTER;
     // builder show 
-    $filler = 'shop.php';
+    $filler = 'checkOut.php';
     require_once FULL_SREEN;
     $links =[
         '<script src="/views/frontCode/jquery.js"></script>',
-        '<script src="views/frontCode/compiled/functions.js"></script>',
         '<script src="views/frontCode/compiled/shop.js"></script>'
     ];
     require_once FOOTER;

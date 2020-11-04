@@ -14,16 +14,16 @@
         // get data from json
         $data = json_decode(file_get_contents($filePath),true);
         // dectrypt
-        foreach($data as $subData){
-           // $subData = decrypt($subData);
+        // foreach($data as $subData){
+        //    // $subData = decrypt($subData);
 
-        }
+        // }
         return $data;
     }
     // function set data to file (need file path and data)
     function setToJSON($data, $filePath){
         // encrypt
-        $data = encrypt($data);
+       // $data = encrypt($data);
         // convert to json standart
         $data = json_encode($data);
         // write to file1

@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "fa",
+        "lastName": "sdf",
+        "date": {
+            "0": 1604422695,
+            "seconds": 15,
+            "minutes": 58,
+            "hours": 18,
+            "mday": 3,
+            "wday": 2,
+            "mon": 11,
+            "year": 2020,
+            "yday": 307,
+            "weekday": "Tuesday",
+            "month": "November"
+        },
+        "products": {
+            "5f95b3d0e17e83869152ebf6": 1,
+            "5f95b3d0287997ce799c97c5": 1
+        }
+    }
+]

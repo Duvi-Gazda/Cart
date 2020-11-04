@@ -2,17 +2,19 @@
     const TYPE_STORAGE = 'json';
     const ROOT = '/home/david/Sync/it-step/Php_and_Sql/Lessons/PrcticeLesson/Cart/';
     const STORAGE = ROOT . 'storage/';
+    const USERS = 'storage/users.json';
     const PRODUCTS = STORAGE . 'products.json';
     const ROUTER = ROOT . 'router.php';
     const VIEW = ROOT . 'views/';
     const FUNCTIONS = ROOT . 'functions.php';
-    const PRODUCTS_CLASS = ROOT . '/classes/products.php';
+    const PRODUCTS_CLASS = ROOT . '/classes/Products.php';
     // elements
     const ELEMENTS = VIEW . 'elements/';
     const HEADER = ELEMENTS .'header.php';
     const ERROR = ELEMENTS .'error.php';
     const FILLER = ELEMENTS .'filler.php';
     const TOTAL_CART = ELEMENTS .'totalCart.php';
+    const USERDATA = ELEMENTS . 'userData.php';
     const MESSAGE = ELEMENTS .'message.php';
     const FOOTER = ELEMENTS . 'footer.php';
     // teplates
